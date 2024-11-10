@@ -1,0 +1,112 @@
+@font-face {
+    font-family:inter;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: do;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: did;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+body { 
+
+background-color: hsl(0, 0%, 8%);
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+#caja {
+    background-color: hsl(0, 0%, 12%);
+    width: 38.4rem;
+    height: 61.7rem;
+    
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#imge{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#name{
+
+    padding-top: 10px;
+    font-family: inter;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#place{
+
+    padding: 10px;
+    font-family: did;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+#descripcion{
+
+    padding-top: 10px;
+    font-family: do;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#Socialmedia{
+
+    background-color: hsl(0, 0%, 20% );
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    font-family: did;
+    color: white;
+    font-size: 16px;
+    border-style: hidden;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#Socialmedia:hover{
+
+background-color: hsl(75, 94%, 57%);
+color: black;
+
+}
+
+#asher{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
